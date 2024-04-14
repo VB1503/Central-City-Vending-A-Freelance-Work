@@ -1,10 +1,10 @@
-import "./Home.css";
-import AboutUs from "./AboutUs";
-import HowItWorks from "./HowItWorks";
-import Carousel from "./Carousel";
-import Services from "./Services";
-import Reviews from "./Reviews";
-import WhyChooseUs from "./WhyChooseUs";
+import "./styles/Home.css";
+import AboutUs from "./home-components/AboutUs";
+import HowItWorks from "./home-components/HowItWorks";
+import Carousel from "./home-components/Carousel";
+import Services from "./home-components/Services";
+import Reviews from "./home-components/Reviews";
+import WhyChooseUs from "./home-components/WhyChooseUs";
 import Footer from "../Footer";
 
 export default function Home() {

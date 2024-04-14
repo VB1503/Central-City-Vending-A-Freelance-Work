@@ -1,7 +1,7 @@
-import machine from '../../assets/icons/machine.png'
-import service from '../../assets/icons/service.png'
-import racks from "../../assets/icons/racks.png"
-import card from "../../assets/icons/crd.png"
+import machine from '../../../assets/icons/machine.png'
+import service from '../../../assets/icons/service.png'
+import racks from "../../../assets/icons/racks.png"
+import card from "../../../assets/icons/crd.png"
 export default function Services() {
   return (
     <div className="flex flex-col items-center">

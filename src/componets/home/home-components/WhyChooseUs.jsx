@@ -1,4 +1,4 @@
-import './styles/whychooseus.css'
+import '../styles/whychooseus.css'
 export default function WhyChooseUs() {
   return (
     <div className="min-h-[80vh]">

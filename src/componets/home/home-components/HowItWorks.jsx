@@ -1,4 +1,4 @@
-import '../../HowItWorks.css';
+import '../styles/HowItWorks.css';
 export default function HowItWorks() {
   return (
     <div className='card-holder'>

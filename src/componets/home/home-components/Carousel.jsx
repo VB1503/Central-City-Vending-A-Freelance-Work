@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import '../../Carousel.css'
+import '../styles/Carousel.css'
 import { EffectCoverflow, Autoplay } from 'swiper/modules';
 
 function Carousel() {

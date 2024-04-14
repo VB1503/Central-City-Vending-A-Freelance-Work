@@ -1,6 +1,6 @@
-import diamond from "../../assets/icons/diamond.png"
-import madland from "../../assets/icons/madland.png"
-import housing from "../../assets/icons/housing.png"
+import diamond from "../../../assets/icons/diamond.png"
+import madland from "../../../assets/icons/madland.png"
+import housing from "../../../assets/icons/housing.png"
 export default function Reviews() {
   return (
     <div className="pt-[80px] pb-8 md:h-[100vh] flex flex-col items-center px-[10px]">
