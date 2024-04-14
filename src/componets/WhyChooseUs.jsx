@@ -21,7 +21,7 @@ export default function WhyChooseUs() {
             <input type="text" className="p-2 m-2 md:m-4 outline-none" placeholder="Preferred Contact Time" name="" id="" />
           </div>
           <div className="flex flex-col justify-end md:flex-row">
-          <button className="bg-[#004AAD] text-gray-200 px-3 font-extrabold py-2 m-2 md:m-4 self-center">REQUEST A QUOTE</button>
+          <button className="bg-[#004AAD] border text-gray-200 px-3 font-extrabold py-2 m-2 md:m-4 self-center">REQUEST A QUOTE</button>
           </div>
         </div>
       </div>
