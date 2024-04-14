@@ -1,4 +1,4 @@
-import '../HowItWorks.css'
+import '../../HowItWorks.css';
 export default function HowItWorks() {
   return (
     <div className='card-holder'>
@@ -8,7 +8,7 @@ export default function HowItWorks() {
           <div className='flex justify-center'><div className="hiw-btn"><button className='h-btn'>How it works</button></div></div>
           
           <div className="hiw-title">
-            "UNLOCKING CONVENIENCE: <span className="text-blue-800">HOW IT WORKS WITH CENTRAL CITY VENDING"</span>
+          &quot;UNLOCKING CONVENIENCE: <span className="text-blue-800">HOW IT WORKS WITH CENTRAL CITY VENDING&quot;</span>
           </div>
         </div>
       </div>
@@ -16,7 +16,7 @@ export default function HowItWorks() {
         <div className="step">
           <div className="step-number">1</div>
           <div className="step-title">CHOOSE YOUR VENDING EXPERIENCE</div>
-          <div className="step-description">Select from our range of state-of-the-art vending machines designed to elevate your breakroom atmosphere. Whether it's snacks, beverages, or a combination of both, Central City Vending offers a variety of options to suit your workplace preferences.</div>
+          <div className="step-description">Select from our range of state-of-the-art vending machines designed to elevate your breakroom atmosphere. Whether it&apos;s snacks, beverages, or a combination of both, Central City Vending offers a variety of options to suit your workplace preferences.</div>
         </div>
         <div className="step">
           <div className="step-number">2</div>
