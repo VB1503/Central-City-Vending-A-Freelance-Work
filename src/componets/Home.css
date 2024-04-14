@@ -1,0 +1,224 @@
+.home-container {
+    position: relative;
+    background-color: white;
+    height: 87vh;
+  }
+  .carousel{
+    margin-top: 40vh ;
+  }
+  .home-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    
+  }
+  
+  .content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+  }
+  .left-hero{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .left-content {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 55px;
+    max-width: 480px;
+  }
+  
+  .subtitles {
+    font-size: 35px;
+    line-height: 45px;
+    max-width: 480px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .subtitles span {
+    color: #0e57c4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+  }
+  
+  .buttons-container {
+     padding: 10px 0px;
+     display: flex;
+     gap: 20px;
+  }
+  
+  .button {
+    padding: 10px 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .r-subtitles{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .form-card{
+    width: 442px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid #0e57c4;
+    padding: 20px;
+  }
+  .right-content {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .email-form{
+    padding: 10px;
+    border: 1px solid gray;
+    outline: none;
+    width: 100%;
+  
+  }
+  .error{
+    color: #FF0000;
+  }
+  .invalid{
+    padding: 10px;
+    border: 1px solid #FF0000;
+    outline: none;
+    width: 100%;
+  }
+  .border-line{
+    background-color: #1765da;
+    height: 2px;
+    border: none;
+  }
+  .form-group{
+    padding: 10px;
+  }
+  
+  .form-group{
+    width: 100%;
+    position: relative;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    margin-top: 30px;
+    background-color: #0e57c4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0c3f8c;
+  }
+  .form-container {
+    margin-top: 30px;
+    padding: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 26px;
+    border: 1px solid gray;
+    outline: none;
+  }
+  
+ @media (max-width:600px){
+  .content-container{
+    flex-direction: column;
+    padding: 20px 5px;
+    height: auto;
+    gap: 70px;
+  }
+  .form-card{
+    width: 45vh;
+  }
+  .r-subtitles{
+    font-size: 16px;
+  }
+  .left-hero{
+    gap: 5px;
+  }
+  .left-content{
+    display: block;
+  }
+  .title,.subtitles{
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: normal;
+    max-width: auto;
+    text-align: center;
+  }
+  .buttons-container{
+    max-width: auto;
+    margin-top: 10px;
+    justify-content: center;
+
+  }
+  .left-content .get-started-butt{
+    padding: 8px 10px;
+    font-size: 10px;
+    width: auto;
+  }
+  .button{
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .home-container {
+    height: 35vh;
+  }
+  .form-container{
+    margin-top: 10px;
+  }
+  .right-content{
+    padding: 10px;
+  }
+  .form-card{
+    padding: 8px;
+  }
+  .input-field{
+    margin-bottom: 15px;
+    padding: 6px;
+  }
+  .submit-button{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .carousel{
+    margin-top: 0vh ;
+  }
+ }

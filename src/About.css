@@ -1,0 +1,49 @@
+  .about-box{
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .abt-cont{
+    display: flex;
+    justify-content: center;
+    padding: 10px 60px;
+  }
+  .abt-title{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+   
+
+  }
+  .abt-text{
+    text-align: center;
+    font-size: 18px;
+    max-width: 110vh;
+    margin: 40px 0;
+  }
+  .abt-butt-cont{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  @media (max-width:600px) {
+    .about-box{
+        margin-top: 50vh;
+        padding-bottom: 0;
+    }
+
+    .abt-title{
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.13);
+        font-size: 22px;
+        max-width: auto;
+        padding-top: 30px;
+        
+    }
+    .abt-gist{
+        padding-top: 20px;
+    }
+    .abt-cont{
+        padding: 10px 20px;
+        border-top: 0.5px solid #1142b4;
+        border-bottom:0.5px solid #1142b4;
+    }
+  }
