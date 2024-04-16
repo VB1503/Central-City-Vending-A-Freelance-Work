@@ -1,6 +1,6 @@
 import Footer from "../Footer"
 import CardDeal from "./about-components/AbtHeader"
-import ClientList from "./about-components/ClientList"
+// import ClientList from "./about-components/ClientList"
 import QualityFeatures from "./about-components/OurTrust"
 import ServiceList from "./about-components/serviceList"
 export default function About() {
@@ -9,7 +9,7 @@ export default function About() {
       <CardDeal />
       <QualityFeatures />
       <ServiceList />
-      <ClientList />
+      {/* <ClientList /> */}
       <Footer />
     </div>
   )
