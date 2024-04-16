@@ -6,9 +6,15 @@
     display: flex;
     align-items: center;
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
     background-color: white;
     box-shadow: 1px 1px 7px rgba(0,0,0,.1);
     color: black;
+  }
+  .body-cont{
+    padding-top: 100px;
   }
   .logo-cont{
     padding-left:  70px;

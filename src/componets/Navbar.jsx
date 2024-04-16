@@ -1,6 +1,7 @@
 import  { useState } from 'react';
 import { IoMenu,IoClose } from 'react-icons/io5';
 import { Outlet, Link } from 'react-router-dom';
+
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
@@ -32,7 +33,9 @@ function Navbar() {
             </div>
           </div>
         </div>
+        <div className='body-cont'>
           <Outlet />
+        </div>
       </>
     );
   }
